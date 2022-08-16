@@ -1,0 +1,99 @@
+#navbar {
+  width: 100%;
+  background-color: rgb(41, 40, 40);
+}
+#navbar .text ul {
+  margin-left: 600px;
+  font-size: 18px;
+}
+
+#info {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(225, 225, 223);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#info .text {
+  position: relative;
+}
+#info .text h2 {
+  font-weight: 700;
+}
+#info .text span {
+  position: absolute;
+  top: 70px;
+  font-size: 17px;
+}
+#info .text button {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(222, 149, 13);
+  border-radius: 7px;
+  border: none;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+#info .text button:hover {
+  color: red;
+}
+
+#cards {
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 50px;
+}
+#cards .scroll {
+  position: relative;
+}
+#cards .scroll h2 {
+  position: absolute;
+  font-weight: 700;
+  top: 10px;
+}
+#cards .scroll .all-cards {
+  position: relative;
+  top: 100px;
+}
+#cards .scroll .all-cards .btn-org {
+  background-color: rgb(222, 149, 13);
+  border: none;
+}
+
+#information {
+  position: relative;
+  display: flex;
+  height: 400px;
+  background-color: rgb(41, 40, 40);
+}
+#information .footer {
+  color: white;
+  position: relative;
+  top: 50px;
+}
+#information .footer h4 {
+  color: white;
+}
+#information .footer .text {
+  position: relative;
+  color: white;
+}
+#information .footer .text h6 {
+  color: white;
+}
+#information .footer .text span {
+  color: white;
+}
+#information .footer .icon a {
+  font-size: 25px;
+  padding-left: 15px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
